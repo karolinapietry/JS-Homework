@@ -22,7 +22,7 @@ let factorial = 1;
 }
 console.log(factorial);
 
-//3) Calculate the sum of the odd items [1,6,23,8,4,98,3,7,3,98,4,98]
+//3) c [1,6,23,8,4,98,3,7,3,98,4,98]
 
 let numbers=[1,6,23,8,4,98,3,7,3,98,4,98];
 let oddNumber=0;
@@ -40,10 +40,10 @@ let array = [1,6,23,8,4,98,3,7,3,98,4,98];
 let max=array[0];
 let min=array[0];
 for (let i=0; i<array.length; i++){
-    if(max<=array[i]){
+    if(max=array[i]){
         max=array[i];
     }
-    if(min>=array[i]){
+    if(min=array[i]){
         min=array[i];
     }
 }
@@ -66,7 +66,7 @@ console.log('The longest string is: '+longestName);
 let nextArray=[1,6,23,8,4,98,3,7,3,98,4,98];
 let max=nextArray[0];
 for (let i=0; i<nextArray.length; i++){
-    if(max<=nextArray[i]){
+    if(max=nextArray[i]){
         max=nextArray[i];
     }
 }
@@ -75,6 +75,12 @@ for (let i=0; i<nextArray.length; i++){
         console.log('Indexes of highest numer is: '+ i);
     }
 }
+//6 in one loop
+let nextArray=[1,6,23,8,4,98,3,7,3,98,4,98];
+for (let i=0; i<nextArray.length; i++)
+
+
+
 //7)	Calculate average value from the given array for even numbers [1,6,23,8,4,98,3,7,3,98,4,98]
 
 let tablica= [1,6,23,8,4,98,3,7,3,98,4,98];
